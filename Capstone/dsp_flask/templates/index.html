@@ -1,0 +1,39 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <title>Disease Symptom Predictor</title>
+</head>
+<body>
+    <h1>Disease Symptom Predictor</h1>
+    <form method="POST" action="/predict">
+        <label for="input1">Disease:</label>
+        <input type="number" name="input1" id="input1" required><br><br>
+
+        <label for="input2">Fever (1 for yes, 0 for no):</label>
+        <input type="number" name="input2" id="input2" required><br><br>
+
+        <label for="input3">Cough (1 for yes, 0 for no):</label>
+        <input type="number" name="input3" id="input3" required><br><br>
+
+        <label for="input4">Fatigue (1 for yes, 0 for no):</label>
+        <input type="number" name="input4" id="input4" required><br><br>
+
+        <label for="input5">Difficulty Breathing (1 for yes, 0 for no):</label>
+        <input type="number" name="input5" id="input5" required><br><br>
+
+        <label for="input6">Age (in years):</label>
+        <input type="number" name="input6" id="input6" required><br><br>
+
+        <label for="input7">Gender (1 for male, 0 for female):</label>
+        <input type="number" name="input7" id="input7" required><br><br>
+
+        <label for="input8">Blood Pressure:</label>
+        <input type="number" name="input8" id="input8" required><br><br>
+
+        <label for="input9">Cholesterol Level:</label>
+        <input type="number" name="input9" id="input9" required><br><br>
+
+        <input type="submit" value="Predict">
+    </form>
+</body>
+</html>
